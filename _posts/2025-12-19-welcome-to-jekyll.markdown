@@ -40,7 +40,7 @@ To create a new Jekyll site, use the jekyll new command in your repository's roo
 jekyll new --skip-bundle .
 ```
 
-# Creates a Jekyll site in the current directory
+Creates a Jekyll site in the current directory
 
 ```
 Conflict: /home/wim/projects/Learnings/github-pages/lenswim.github.io exists and is not empty.
