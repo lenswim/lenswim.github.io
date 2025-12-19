@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Github Pages with Jekyll!"
+title:  "Github Pages with Jekyll"
 date:   2025-12-19 15:25:31 +0100
 categories: github-pages jekyll
 ---
