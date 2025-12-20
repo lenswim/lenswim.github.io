@@ -15,21 +15,22 @@ categories: imac linux
 
 ## Bootable USB
 1. Download .iso file for Linux Mint
-2. > Probably not the "easy" way, because it's not graphical. But it is kinda pretty easy.
-
-Open terminal (press cmd+space and type "terminal")
-
-First type "diskutil list" and press enter
-
-then insert your usb stick and run "diskutil list" again to see the disk node (e.g. /dev/disk2)
-
-Now run "diskutil unmountDisk /dev/diskN" (where N is the number of the usb stick)
-
-and then run "sudo dd if=/path-to.iso of=/dev/rdiskN bs=1m"
-
-(after typing "sudo dd if=" you simply copy paste the path that's to be found when you right click on the file, then click "get info" and copy the path under "Where")
-
-When finished "diskutil eject /dev/diskN" \\> — <cite>[dude op reddit](https://www.reddit.com/r/mac/comments/6tltiw/how_do_i_easily_burn_a_bootable_iso_to_a_usb/)</cite>
+2. 
+> Probably not the "easy" way, because it's not graphical. But it is kinda pretty easy.  
+>  
+> Open terminal (press cmd+space and type "terminal")  
+>  
+> First type "diskutil list" and press enter  
+>  
+> Then insert your usb stick and run "diskutil list" again to see the disk node (e.g. /dev/disk2)  
+>  
+> Now run "diskutil unmountDisk /dev/diskN" (where N is the number of the usb stick)  
+>  
+> And then run "sudo dd if=/path-to.iso of=/dev/rdiskN bs=1m"  
+>  
+> (After typing "sudo dd if=" you simply copy-paste the path that's to be found when you right-click on the file, then click "get info" and copy the path under "Where")  
+>  
+> When finished "diskutil eject /dev/diskN" — [dude op reddit](https://www.reddit.com/r/mac/comments/6tltiw/how_do_i_easily_burn_a_bootable_iso_to_a_usb/)
 
 ## Installing Linux
 1. insert USB
