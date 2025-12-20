@@ -8,7 +8,7 @@ categories: imac linux
 ## Why?
 
 * super slow after 14 years
-* not upgradeable because of limit specs
+* not upgradeable because of limited specs
 * chrome browser not upgradeable because OS was too old
 * I wanted a personal machine to do some programming stuff
     * I was too lazy to set up multiple SSH keys on my work laptop to support 2 github accounts
@@ -30,7 +30,7 @@ categories: imac linux
 >  
 > (After typing "sudo dd if=" you simply copy-paste the path that's to be found when you right-click on the file, then click "get info" and copy the path under "Where")  
 >  
-> When finished "diskutil eject /dev/diskN" — [dude op reddit](https://www.reddit.com/r/mac/comments/6tltiw/how_do_i_easily_burn_a_bootable_iso_to_a_usb/)
+> When finished "diskutil eject /dev/diskN" — [some dude on reddit](https://www.reddit.com/r/mac/comments/6tltiw/how_do_i_easily_burn_a_bootable_iso_to_a_usb/)
 
 ## Installing Linux
 1. insert USB
@@ -42,7 +42,7 @@ categories: imac linux
 ## More RAM
 My 2011 IMac had 4GB RAM out of the box, but apparently it supports up to 32GB.
 
-On the bottom of the screen frame there are 3 screws that you can unscrew to open to RAM slots.
+On the bottom of the screen frame there are 3 screws that you can unscrew to open up the RAM slots.
 
 There are some black plastic flappy things that you can pull to eject/insert the RAM sticks
 

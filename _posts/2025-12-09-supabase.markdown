@@ -23,6 +23,8 @@ Is basically a collection of backends services.
 
 ## Database
 
+A Postgres database
+
 ## Authentication
 ### Magic link configuration
 
