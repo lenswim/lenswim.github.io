@@ -4,10 +4,17 @@ title:  "Github Pages with Jekyll"
 date:   2025-12-19 15:25:31 +0100
 categories: github-pages jekyll
 ---
-# Github pages with Jekyll
+
+- [About](#about)
+- [Installing Jekyll](#installing-jekyll)
+  - [Create new github repo](#create-new-github-repo)
+- [Running your site locally](#running-your-site-locally)
+
+
+# About
 [github pages documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
 
-## Installing Jekyll
+# Installing Jekyll
 [Jekyll install guide](https://jekyllrb.com/docs/installation/)
 1. install ruby (sudo apt install ruby)
 2. install ruby gems (already installed, maybe by step 1. who knows?)
@@ -78,7 +85,7 @@ okay, maybe read the doc better, because it clearly said I also need to check th
 
 okay, updated gemfile again and it worked this time.
 
-### Running your site locally
+# Running your site locally
 
 ```
 bundle exec jekyll serve
