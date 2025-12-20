@@ -1,0 +1,79 @@
+---
+# Front matter
+---
+
+// 1. Avocado Systems Palette
+$background-color:      #0a0b0a; // Deep charcoal-green (Almost black)
+$text-color:            #ffffff; // Main text
+$brand-color:           #a6ce39; // The vibrant Avocado Green
+$brand-color-light:     lighten($brand-color, 15%);
+$brand-color-dark:      #86ab2d;
+
+$grey-color:            #9ca3af; // Muted text/meta
+$grey-color-light:      #1f2937; // Borders and dividers
+$grey-color-dark:       #4b5563;
+
+// 2. Import Minima
+@import "minima";
+
+// 3. Avocado-specific refinements
+html, body {
+    background-color: $background-color !important;
+    color: $text-color !important;
+}
+
+// Header & Footer
+.site-header {
+    border-top: 5px solid $brand-color !important;
+    border-bottom: 1px solid $grey-color-light;
+}
+
+.site-title, .site-title:visited {
+    color: #ffffff !important;
+    font-weight: 700;
+}
+
+// Links
+a, a:visited {
+    color: $brand-color;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+// Code Blocks (using a slightly "deep moss" background for depth)
+pre, code {
+    background-color: #121412 !important;
+    border: 1px solid $grey-color-light !important;
+    color: $brand-color !important;
+}
+
+// Tables
+table {
+    border-color: $grey-color-light;
+    tr:nth-child(even) {
+        background-color: #121412;
+    }
+    th {
+        background-color: #1a1c1a;
+        color: $brand-color;
+    }
+}
+
+// Mobile Nav
+@media screen and (max-width: 600px) {
+    .site-nav {
+        background-color: #121412;
+        border-color: $grey-color-light;
+        .page-link {
+            color: #ffffff;
+        }
+    }
+}
+
+pre, code {
+    background-color: #333533 !important;
+    
+}

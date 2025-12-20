@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: The Awesome Things Wim Lens Learned
+title: The Awesome Things Wim Lens has Learned
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
   I hate reading documentation. I hate it when people don't read my documentation.
@@ -29,6 +29,8 @@ github_username:  lenswim
 
 # Build settings
 theme: minima
+minima:
+  skin: dark
 plugins:
   - jekyll-feed
 
