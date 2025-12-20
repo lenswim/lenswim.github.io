@@ -9,6 +9,7 @@ categories: github-pages jekyll
 - [Installing Jekyll](#installing-jekyll)
   - [Create new github repo](#create-new-github-repo)
 - [Running your site locally](#running-your-site-locally)
+- [Overriding the theme you chose](#overriding-the-theme-you-chose)
 
 
 # About
@@ -93,3 +94,12 @@ bundle exec jekyll serve
 
 
 yaay, it works
+
+# Overriding the theme you chose
+1. Find the github repo of your theme
+2. Find the file you want to change
+3. copy/paste this file
+4. make the same directory structure and paste the file
+5. change the parts you don't like
+
+Typically this is a file under `_includes`
