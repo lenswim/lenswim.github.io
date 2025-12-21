@@ -6,6 +6,7 @@ categories: github-pages jekyll
 ---
 
 - [About](#about)
+- [What is Jekyll](#what-is-jekyll)
 - [Installing Jekyll](#installing-jekyll)
   - [Create new github repo](#create-new-github-repo)
 - [Running your site locally](#running-your-site-locally)
@@ -14,6 +15,14 @@ categories: github-pages jekyll
 
 # About
 [github pages documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
+
+# What is Jekyll
+Jekyll is a static site generator written in Ruby.
+
+From a user perspective:
+
+1. configure Jekyll with a theme of your choice
+2. drop markdown files at the correct location
 
 # Installing Jekyll
 [Jekyll install guide](https://jekyllrb.com/docs/installation/)
