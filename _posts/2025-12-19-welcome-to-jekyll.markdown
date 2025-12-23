@@ -13,10 +13,10 @@ categories: github-pages jekyll
 - [Overriding the theme you chose](#overriding-the-theme-you-chose)
 
 
-# About
-[github pages documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
+## About
+More information here: [github pages documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
 
-# What is Jekyll
+## What is Jekyll
 Jekyll is a static site generator written in Ruby.
 
 From a user perspective:
@@ -24,7 +24,7 @@ From a user perspective:
 1. configure Jekyll with a theme of your choice
 2. drop markdown files at the correct location
 
-# Installing Jekyll
+## Installing Jekyll
 [Jekyll install guide](https://jekyllrb.com/docs/installation/)
 1. install ruby (sudo apt install ruby)
 2. install ruby gems (already installed, maybe by step 1. who knows?)
@@ -44,7 +44,7 @@ Done installing documentation for bundler after 0 seconds
 30 gems installed
 ```
 
-## Create new github repo
+### Create new github repo
 lenswim/lenswim.github.io
 
 do stuff on the pages section, but I need to have content in my repo
@@ -95,7 +95,7 @@ okay, maybe read the doc better, because it clearly said I also need to check th
 
 okay, updated gemfile again and it worked this time.
 
-# Running your site locally
+## Running your site locally
 
 ```
 bundle exec jekyll serve
@@ -104,7 +104,7 @@ bundle exec jekyll serve
 
 yaay, it works
 
-# Overriding the theme you chose
+## Overriding the theme you chose
 1. Find the github repo of your theme
 2. Find the file you want to change
 3. copy/paste this file
