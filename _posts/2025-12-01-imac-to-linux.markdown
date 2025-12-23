@@ -56,7 +56,7 @@ On the bottom of the screen frame there are 3 screws that you can unscrew to ope
 There are some black plastic flappy things that you can pull to eject/insert the RAM sticks
 
 ## Installing Node (to build a react app)
-sudo apt-get install -y nodejs -> v18.19.1
+`sudo apt-get install -y nodejs -> v18.19.1`
 
 Apparently nodesource has it's own repository for node packages:
 
