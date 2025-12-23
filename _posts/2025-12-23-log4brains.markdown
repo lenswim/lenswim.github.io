@@ -1,0 +1,83 @@
+---
+layout: post
+title:  "Log4brains"
+date:   2025-12-23 10:25:31 +0100
+categories: adr documentation log4brains
+---
+
+
+## What problem does this tool solve?
+**My problem**: I want the documentation to be close to the code and versioned.
+
+I also want the documentation to have a human-readable form and it should be searchable.
+
+Log4brains is a solution for this problem, but only specifically for ADR (Architecture Design Records).
+
+You need 3 things for this:
+* installing log4brains in your project
+* a github actions workflow to publish the ADR's
+* github pages enabled on your repository
+
+## What it actually does
+It creates an extra branch in your repository named `gh-pages`.
+
+The github workflow does an `npx log4brains build`, which generates an output folder.
+
+This outputfolder then get's pushed to the `gh-pages` branch.
+
+This branch is referred to in the Pages configuration of your repository and this gets served by Github.
+
+## Installing log4brains
+`npm install log4brains`
+
+`npm log4brains init`
+
+Then follow along the installation instructions.
+
+## Creating an ADR
+`npx log4brains new`
+
+## Creating a github action workflow
+It took a couple of attempts and some chatgpt sparring to make it work for me because I already had an existing github pages blog on the root of my directory.
+
+Because of this, the default workflow file in the github repo didn't work for me.
+
+I ended up using this one:
+
+```yaml
+name: Deploy ADRs
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Build Log4brains
+        run: |
+          npm install -g log4brains@1.1.0
+          log4brains build --basePath /${{ github.event.repository.name }}
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./.log4brains/out
+          nojekyll: true
+          clean: true
+```
+
+## Wait for the build to finish
+Et voila!
+
+![alt text](./log4brains.png)

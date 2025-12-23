@@ -5,7 +5,7 @@ date:   2025-12-19 15:25:31 +0100
 categories: github-pages jekyll
 ---
 
-- [About](#about)
+- [About github pages](#about-github-pages)
 - [What is Jekyll](#what-is-jekyll)
 - [Installing Jekyll](#installing-jekyll)
   - [Create new github repo](#create-new-github-repo)
@@ -13,7 +13,7 @@ categories: github-pages jekyll
 - [Overriding the theme you chose](#overriding-the-theme-you-chose)
 
 
-## About
+## About github pages
 More information here: [github pages documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll)
 
 ## What is Jekyll
