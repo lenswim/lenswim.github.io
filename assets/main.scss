@@ -5,9 +5,9 @@
 // 1. Avocado Systems Palette
 $background-color:      #202020;
 $text-color:            #ffffff; // Main text
-$brand-color:           #90b42b; // The vibrant Avocado Green
+$brand-color:           #1DB954; // Spotify Green
 $brand-color-light:     lighten($brand-color, 15%);
-$brand-color-dark:      #86ab2d;
+$brand-color-dark:      #1DB954;
 
 $grey-color:            #9ca3af; // Muted text/meta
 $grey-color-light:      #484a4d; // Borders and dividers
@@ -26,6 +26,11 @@ html, body {
 .site-header {
     border-top: 5px solid $brand-color !important;
     border-bottom: 1px solid $grey-color-light;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+    font-weight: 400;
+    color: $brand-color;
 }
 
 .site-title, .site-title:visited {
@@ -47,7 +52,6 @@ a:hover {
 pre, code {
     background-color: #121412 !important;
     border: 1px solid $grey-color-light !important;
-    color: $brand-color !important;
 }
 
 // Tables

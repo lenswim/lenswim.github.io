@@ -5,6 +5,15 @@ date:   2025-12-01 15:25:31 +0100
 categories: imac linux
 ---
 
+- [Why?](#why)
+- [Bootable USB](#bootable-usb)
+- [Installing Linux](#installing-linux)
+- [More RAM](#more-ram)
+- [Installing Node (to build a react app)](#installing-node-to-build-a-react-app)
+- [Installing Docker Engine](#installing-docker-engine)
+- [Installing Docker Desktop](#installing-docker-desktop)
+
+
 ## Why?
 
 * super slow after 14 years
