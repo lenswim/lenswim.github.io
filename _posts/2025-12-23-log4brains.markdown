@@ -80,4 +80,4 @@ jobs:
 ## Wait for the build to finish
 Et voila!
 
-![alt text](./log4brains.png)
+![adr-records](/assets/images/log4brains.png)
