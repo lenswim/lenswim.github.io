@@ -5,6 +5,13 @@ date:   2025-12-23 10:25:31 +0100
 categories: adr documentation log4brains
 ---
 
+- [What problem does this tool solve?](#what-problem-does-this-tool-solve)
+- [What it actually does](#what-it-actually-does)
+- [Installing log4brains](#installing-log4brains)
+- [Creating an ADR](#creating-an-adr)
+- [Creating a github action workflow](#creating-a-github-action-workflow)
+- [Viewing your ADR in the browser](#viewing-your-adr-in-the-browser)
+
 
 ## What problem does this tool solve?
 **My problem**: I want the documentation to be close to the code and versioned.
@@ -77,7 +84,7 @@ jobs:
           clean: true
 ```
 
-## Wait for the build to finish
-Et voila!
+## Viewing your ADR in the browser
+Wait for the github action to finish, et voila!
 
 ![adr-records](/assets/images/log4brains.png)
