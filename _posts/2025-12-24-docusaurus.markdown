@@ -40,4 +40,4 @@ They focus on different parts of the developer experience:
 Not out-of-the-box, but there are plugins you can apply.
 
 ## Example
-https://lenswim.github.io/cqrs/
+[CQRS Documentation](https://lenswim.github.io/cqrs/)
