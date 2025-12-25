@@ -5,7 +5,7 @@ date:   2025-12-23 10:25:31 +0100
 categories: adr documentation log4brains
 ---
 
-- [What problem does this tool solve?](#what-problem-does-this-tool-solve)
+- [What problem does this Log4brains solve?](#what-problem-does-this-log4brains-solve)
 - [What it actually does](#what-it-actually-does)
 - [Installing log4brains](#installing-log4brains)
 - [Creating an ADR](#creating-an-adr)
@@ -13,12 +13,12 @@ categories: adr documentation log4brains
 - [Viewing your ADR in the browser](#viewing-your-adr-in-the-browser)
 
 
-## What problem does this tool solve?
+## What problem does this Log4brains solve?
 **My problem**: I want the documentation to be close to the code and versioned.
 
 I also want the documentation to have a human-readable form and it should be searchable.
 
-Log4brains is a solution for this problem, but only specifically for ADR (Architecture Design Records).
+Log4brains is a solution for this problem, but only specifically for ADR (Architecture Design Records), so sad.
 
 You need 3 things for this:
 * installing log4brains in your project
