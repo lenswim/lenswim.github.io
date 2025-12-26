@@ -20,6 +20,8 @@ Log4brains is a solution for this problem, but only specifically for ADR (Archit
 
 **But** ...there is also [Docusaurus](https://docusaurus.io)
 
+Simply write docs and blog posts with [MDX](https://mdxjs.com/), and Docusaurus builds them into static HTML files ready to be served. You can even **embed React components** in your Markdown thanks to MDX.
+
 Similar to Log4brains you need 3 things for this:
 * installing Docusaurus in your project
 * a github actions workflow to build and publish the site
