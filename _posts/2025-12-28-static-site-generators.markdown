@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Docusaurus"
+title:  "Static Site Generators"
 date:   2025-12-28 14:45:31 +0100
 categories: SSG jekyll docusaurus HTML
 ---
